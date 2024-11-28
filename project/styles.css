@@ -1,125 +1,221 @@
-/* Reset styles */
+/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
 
+/* Body基本樣式 */
 body {
-    font-family: Arial, sans-serif;
+    background-color: #f4f8fb; /* 淺灰藍色背景 */
+    color: #333; /* 深灰色文字 */
     line-height: 1.6;
-    background-color: #f4f4f4;
+    font-size: 16px;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: linear-gradient(135deg, #e0eafc, #cfdef3); /* 增加背景漸層 */
 }
 
+/* Header 樣式 */
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    color: #2c3e50; /* 深藍色 */
+    margin-bottom: 15px;
+    font-weight: 700;
+    letter-spacing: 2px; /* 增加字母間距 */
+}
+
+header p {
+    font-size: 1.3rem;
+    color: #7f8c8d; /* 淺灰色 */
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+/* 團隊介紹區塊 */
+.team-introduction {
+    background-color: #fff;
+    padding: 50px;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.team-introduction:hover {
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.team-introduction h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+.team-introduction p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-bottom: 40px;
     text-align: center;
 }
 
-h1 {
-    font-size: 2rem;
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
+.team-member {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.team-member img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    font-size: 1.6rem;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* 官方 Line QRCode 區塊 */
+.line-qrcode {
+    background-color: #fff;
+    padding: 50px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.line-qrcode h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.line-qrcode p {
+    font-size: 1.3rem;
+    color: #7f8c8d;
+    margin-bottom: 25px;
+}
+
+.qrcode-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.qrcode-img:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* 活動區塊 */
 .events {
     display: flex;
+    gap: 30px;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: center;
+    margin-top: 60px;
 }
 
 .card {
-    width: 300px;
-    margin: 15px;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    background-color: #fff;
+    width: 320px;
+    border-radius: 20px;
     overflow: hidden;
-    transition: transform 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-    transform: scale(1.05);
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
     width: 100%;
     height: 200px;
     object-fit: cover;
+    border-bottom: 3px solid #f1f1f1;
 }
 
 .card-content {
-    padding: 15px;
+    padding: 30px;
+    text-align: center;
 }
 
-.card-content h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.card-content p {
-    font-size: 1rem;
+.card h3 {
+    font-size: 1.9rem;
+    color: #2c3e50;
     margin-bottom: 15px;
+    font-weight: 700;
 }
 
-.card-content a {
-    color: #007bff;
+.card p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-bottom: 25px;
+}
+
+.card a {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #3498db;
+    color: white;
     text-decoration: none;
+    border-radius: 30px;
     font-weight: bold;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+.card a:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* Footer 樣式 */
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #333;
+    padding: 30px 0;
+    background-color: #34495e;
     color: white;
-}
-
-.event-details {
-    padding: 20px;
-    background-color: white;
-    margin: 20px auto;
-    width: 80%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.event-details h2 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-}
-
-.event-details p {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-
-.event-details img {
-    width: 100%;
-    height: auto;
-    margin-top: 15px;
-}
-/* 官方 Line QRCode 區塊 */
-.line-qrcode {
-    background-color: #f9f9f9;
-    padding: 30px;
-    margin: 30px 0;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.line-qrcode h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.line-qrcode p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
-
-.qrcode-img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+    margin-top: 60px;
+    font-size: 1rem;
 }
