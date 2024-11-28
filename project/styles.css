@@ -22,8 +22,8 @@ p {
 }
 
 .qr-code {
-    width: 150px;
-    height: 150px;
+    width: 120px;  /* 调整二维码为中小型 */
+    height: 120px;
     margin-top: 20px;
 }
 
@@ -39,13 +39,18 @@ p {
 }
 
 .team-members {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 两列并排 */
+    gap: 20px; /* 设置成员之间的间隔 */
     margin-top: 20px;
 }
 
 .team-member {
     text-align: center;
+    background-color: #ecf0f1; /* 浅灰色背景 */
+    padding: 15px;
+    border-radius: 8px; /* 圆角效果 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 阴影效果 */
 }
 
 .team-member img {
@@ -60,6 +65,48 @@ footer {
     background-color: #34495e;
     color: white;
     padding: 10px;
+}
+
+/* 活动卡片的样式 */
+.events {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 48%;  /* 卡片宽度 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.card-content a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #2980b9;
 }
 
 /* 媒体查询：当屏幕宽度小于768px时（即适应手机或小屏幕） */
@@ -79,16 +126,22 @@ footer {
     .team-members {
         display: block;
         text-align: center;
-    }
-
-    .team-member {
-        margin-bottom: 20px;
+        margin-top: 20px;
     }
 
     .qr-code {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
         margin-top: 10px;
+    }
+
+    .events {
+        flex-direction: column; /* 手机端时让活动卡片垂直排列 */
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
 
@@ -103,8 +156,8 @@ footer {
     }
 
     .qr-code {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .team-introduction h2 {
@@ -119,5 +172,10 @@ footer {
     .team-member img {
         width: 80px;
         height: 80px;
+    }
+
+    footer {
+        padding: 15px;
+        font-size: 0.9em;
     }
 }
