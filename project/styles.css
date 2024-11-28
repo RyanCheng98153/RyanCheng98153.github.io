@@ -35,6 +35,14 @@ header p {
     color: #555; /* 中灰色 */
 }
 
+/* 全局图片样式：响应式宽度，高度自动 */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 /* 團隊介紹區塊 */
 .team-introduction {
     background-color: #fff;
@@ -74,11 +82,43 @@ header p {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* 媒体查询：适配小屏设备 */
+@media (max-width: 768px) {
+    .team-members {
+        flex-direction: column; /* 团队成员垂直堆叠 */
+        align-items: center;
+    }
+
+    .card {
+        width: 100%; /* 卡片全宽显示 */
+    }
+
+    .qrcode-img {
+        max-width: 150px; /* 更小的二维码尺寸 */
+    }
+}
+
+@media (max-width: 480px) {
+    .qrcode-img {
+        max-width: 120px; /* 超小屏时缩小二维码 */
+    }
+
+    .team-member img {
+        max-width: 80px; /* 小屏团队成员头像缩小 */
+    }
+
+    .card img {
+        height: 150px; /* 降低卡片图片高度以适配窄屏 */
+    }
+}
+
+/* 团队成员图片 */
 .team-member img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 50%;
     object-fit: cover;
+    margin-bottom: 15px;
 }
 
 .team-member h3 {
@@ -114,12 +154,15 @@ header p {
     margin-bottom: 20px;
 }
 
+/* 特定样式：二维码图片 */
 .qrcode-img {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
+    width: 100%; /* 让图片在小屏幕上自适应 */
+    max-width: 180px; /* 限制二维码的最大尺寸 */
+    height: auto;
+    object-fit: contain;
     border-radius: 8px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
 }
 
 /* 活動區塊 */
