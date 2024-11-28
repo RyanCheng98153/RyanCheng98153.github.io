@@ -99,3 +99,27 @@ footer {
     height: auto;
     margin-top: 15px;
 }
+/* 官方 Line QRCode 區塊 */
+.line-qrcode {
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin: 30px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.line-qrcode h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.line-qrcode p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.qrcode-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
