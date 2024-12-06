@@ -32,10 +32,6 @@ header h1 {
     letter-spacing: 2px;
 }
 
-header p {
-    font-size: 1.2rem;
-    color: #555;
-}
 
 /* Carousel 區塊樣式 */
 /* .carousel {
@@ -192,14 +188,29 @@ button .arrow {
 
 /* 活動標題 (置中並固定在圖片上方) */
 .events h2 {
-    position: flex;  /* 絕對定位 */
+    position: flex;
     top: 20px;  /* 可以調整這個值來微調位置 */
     width: 100%; /* 使標題寬度和 .events 區塊一致 */
     font-size: 2rem;
     color: #2c3e50;
-    margin-bottom: 0;
-    z-index: 10; /* 確保標題在圖片上方 */
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
+
+.events .title {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-top: 20px;
+}
+
+.events p {
+    font-size: 1rem;
+    color: #555;
+}
+
 
 /* 單一活動卡片 */
 .cards {
