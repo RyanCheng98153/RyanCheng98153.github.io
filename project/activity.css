@@ -61,8 +61,13 @@ header p {
 }
 .qrcode-img {
     display: block;
-    max-width: 200px;
+    width: 80%;
+    max-width: 80px;
+    height: auto;
     margin: 10px auto;
+    object-fit: contain;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 /* Images */
@@ -116,5 +121,8 @@ footer {
     }
     .btn-home {
         font-size: 14px;
+    }
+    .qrcode-img {
+        max-width: 50px;
     }
 }
