@@ -7,50 +7,54 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- 頁首 -->
     <header>
         <h1>迷途羔羊</h1>
         <p>點選活動卡片了解更多詳情</p>
     </header>
 
-    <!-- 團隊介紹區塊 -->
+    <!-- Carousel 區塊 -->
+    <section class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="images/banner1.jpg" alt="活動圖1">
+                <img src="images/banner2.jpg" alt="活動圖2">
+                <img src="images/banner3.jpg" alt="活動圖3">
+            </div>
+        </div>
+    </section>
+
+    <!-- 團隊介紹 -->
     <section class="team-introduction">
         <h2>我們的團隊</h2>
-        <p>我們是一群熱衷於探索文化與創意的人，致力於為您帶來獨特且具有意義的活動體驗。我們的團隊成員來自各行各業，每一位都在這個項目中貢獻了自己的專業和熱情。</p>
+        <p>我們是一群熱衷於探索文化與創意的人，致力於帶來獨特且有意義的活動體驗。</p>
         <div class="team-members">
             <div class="team-member">
-                <img src="images/team_chen.png" alt="團隊成員1">
+                <img src="images/team_chen.png" alt="陳彥閎">
                 <h3>陳彥閎</h3>
-                <p>專注於活動策劃和執行，負責每一場活動的流程管理。</p>
+                <p>活動策劃與執行</p>
             </div>
             <div class="team-member">
-                <img src="images/team_tsai.png" alt="團隊成員2">
+                <img src="images/team_tsai.png" alt="蔡佳穎">
                 <h3>蔡佳穎</h3>
-                <p>負責設計和創意，將每個活動的視覺效果與主題相結合。</p>
+                <p>設計與創意</p>
             </div>
-        </div>
-        <div class="team-members">
             <div class="team-member">
-                <img src="images/team_ryan.png" alt="團隊成員3">
+                <img src="images/team_ryan.png" alt="鄭睿宏">
                 <h3>鄭睿宏</h3>
-                <p>負責網站架設，用創意為客戶打造與眾不同的體驗</p>
+                <p>網站架設</p>
             </div>
             <div class="team-member">
-                <img src="images/team_carry.png" alt="團隊成員4">
+                <img src="images/team_carry.png" alt="陳楷璿">
                 <h3>陳楷璿</h3>
-                <p>負責媒體宣傳，確保每場活動得到適當的曝光和推廣。</p>
+                <p>媒體宣傳</p>
             </div>
         </div>
     </section>
 
-    <!-- 官方 Line QRCode -->
-    <section class="line-qrcode">
-        <h2>加入官方 Line</h2>
-        <p>掃描下方 QR Code，與我們保持聯繫，了解最新活動資訊！</p>
-        <img src="images/line_friends.png" alt="官方 Line QRCode" class="qrcode-img">
-    </section>
-
-    <!-- 活動介紹區塊 -->
+    <!-- 活動卡 -->
     <section class="events">
+        <h2>近期活動</h2>
         <div class="card">
             <img src="images/street.jpg" alt="命運的絲線">
             <div class="card-content">
@@ -59,7 +63,6 @@
                 <a href="./destiny.html">查看詳情</a>
             </div>
         </div>
-
         <div class="card">
             <img src="images/handcraft.jpg" alt="手作體驗">
             <div class="card-content">
@@ -70,6 +73,14 @@
         </div>
     </section>
 
+    <!-- Line 加入 QRCode -->
+    <section class="line-qrcode">
+        <h2>加入官方 Line</h2>
+        <p>掃描下方 QR Code 與我們保持聯繫！</p>
+        <img src="images/line_friends.png" alt="官方 Line QRCode">
+    </section>
+
+    <!-- 頁腳 -->
     <footer>
         <p>© 2024 迷途羔羊活動</p>
     </footer>
