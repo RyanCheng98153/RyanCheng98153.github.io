@@ -100,6 +100,7 @@
 
         function showSlide(index) {
             const carouselContainer = document.querySelector(".carousel-container");
+            console.log(carouselContainer)
             carouselContainer.style.transform = `translateX(-${index * 100}%)`;
         }
 
@@ -107,7 +108,7 @@
             setInterval(() => {
                 currentIndex = (currentIndex + 1) % totalSlides;
                 showSlide(currentIndex);
-            }, 3000); // 每三秒切換
+            }, 1000); // 每三秒切換
         }
         startCarousel();
 
