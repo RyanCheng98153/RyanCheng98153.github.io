@@ -62,116 +62,56 @@ header p {
 } */
 
 /* 定義圖片尺寸 */
-.carousel-wrapper {
-    width: 520px;  /* 400px * 1.3 */
-    height: 350px; /* 250px * 1.4 */
+
+.container {
+    width: 100%;
+    height: 500px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
-    border-radius: 20px;
-    margin: 100px auto 20px;
-  }
-  
-  .carousel-container {
-    width: 400px;
-    height: 250px;
-    overflow: hidden;
-    margin: 0 auto;
-  }
-  
-  .carousel {
+    box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+        0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
+
+.container img {
+    width: 100%;
+    z-index: -2;
+}
+
+button {
+    height: 10%;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    padding: 1em;
     display: flex;
-    width: 1200px; /* 400px * 3 */
-    animation: sliding 12s infinite;
-  }
-  
-  .carousel div {
-    width: 400px;
-    height: 250px;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .carousel:hover {
-    animation-play-state: paused;
-  }
-  
-  .image-one {
-    background-image: url("./images/street.jpg");
-  }
-  
-  .image-two {
-    background-image: url("./images/handcraft.jpg");
-  }
-  
-  .image-three {
-    background-image: url("./images/keelung.jpg");
-  }
-  
-  @keyframes sliding {
-    30% {
-      transform: translateX(0);
-    }
-    35% {
-      transform: translateX(-400px);
-    }
-    65% {
-      transform: translateX(-400px);
-    }
-    70% {
-      transform: translateX(-800px);
-    }
-    98% {
-      transform: translateX(-800px);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .carousel-wrapper {
-      width: 312px;  /* 240px * 1.3 */
-      height: 210px; /* 150px * 1.4 */
-    }
-  
-    .carousel-container {
-      width: 240px;
-      height: 150px;
-    }
-  
-    .carousel {
-      width: 720px; /* 240px * 3 */
-    }
-  
-    .carousel div {
-      width: 240px;
-      height: 150px;
-    }
-  
-    @keyframes sliding {
-      30% {
-        transform: translateX(0);
-      }
-      35% {
-        transform: translateX(-240px);
-      }
-      65% {
-        transform: translateX(-240px);
-      }
-      70% {
-        transform: translateX(-480px);
-      }
-      98% {
-        transform: translateX(-480px);
-      }
-      100% {
-        transform: translateX(0);
-      }
-    }
-  }
-  
+}
+
+button .arrow {
+    border: solid #fff;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 10px;
+    transition: transform 0.3s ease-out;
+    outline: none;
+}
+
+#right-btn {
+    margin: auto 0 auto -2em;
+}
+
+#right-btn .arrow {
+    transform: rotate(-45deg);
+}
+
+#left-btn {
+    z-index: 0;
+    margin: auto -2em auto 0;
+}
+
+#left-btn .arrow {
+    transform: rotate(135deg);
+}
 
 
 /* 團隊介紹區塊 */
