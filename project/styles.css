@@ -298,17 +298,19 @@ button .arrow {
     font-size: 1.2rem;
     color: #7f8c8d;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 /* 特定样式：二维码图片 */
 .qrcode-img {
-    width: 100%; /* 让图片在小屏幕上自适应 */
-    max-width: 60px; /* 限制二维码的最大尺寸 */
+    width: 80%; /* 让图片在小屏幕上自适应 */
+    max-width: 20px;
     height: auto;
     object-fit: contain;
     border-radius: 8px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
+    justify-content: center;
 }
 
 /* Footer 樣式 */
