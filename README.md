@@ -30,8 +30,8 @@ I'm a 21-year-old computer science studentwith a passion for technology, program
 - **Database:** MySQL, PostgreSQL, MongoDB, SQLite
 
 #### 🌟 Projects
-- **謎途高揚**
-  [![Project](https://img.shields.io/badge/View-Project-blue?style=for-the-badge)](project/culture-puzzle//index.html)
+- **謎途高揚**: [![Project](https://img.shields.io/badge/View-Project-blue?style=for-the-badge)](project/culture-puzzle/index.html)
+- **Christmas**: [![Project](https://img.shields.io/badge/View-Project-green?style=for-the-badge)](project/christmas/index.html)
 
 #### 📚 I'm currently reading
 
