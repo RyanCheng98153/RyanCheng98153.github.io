@@ -31,7 +31,7 @@ I'm a 21-year-old computer science studentwith a passion for technology, program
 
 #### 🌟 Projects
 - **謎途高揚**
-  [![Project](https://img.shields.io/badge/View-Project-blue?style=for-the-badge)](project/index.html)
+  [![Project](https://img.shields.io/badge/View-Project-blue?style=for-the-badge)](project/culture-puzzle//index.html)
 
 #### 📚 I'm currently reading
 
