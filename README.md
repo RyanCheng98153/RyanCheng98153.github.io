@@ -29,14 +29,17 @@ I'm a 21-year-old computer science studentwith a passion for technology, program
 - **Tools:** Git
 - **Database:** MySQL, PostgreSQL, MongoDB, SQLite
 
-#### 🌟 Projects
-- **謎途高揚**: [![Project](https://img.shields.io/badge/View-Project-blue?style=for-the-badge)](project/culture-puzzle/index.html)
-- **Christmas**: [![Project](https://img.shields.io/badge/View-Project-green?style=for-the-badge)](project/christmas/index.html)
+#### 🌟 Publicians & Projects
+- Cache Augmentation Generation (a.k.a CAG) 
+  - CAG is A Simple, Efficient Alternative to RAG
+  - paper link: https://arxiv.org/abs/2412.15605
+  - Code link: https://github.com/hhhuang/CAG
+  - ACM The Web Conference 2025 (WWW'25), Accepted.
+- 
 
 #### 📚 I'm currently reading
-
 - "Clean Code: A Handbook of Agile Software Craftsmanship" by Robert C. Martin
-- 
+
 #### 📊 GitHub Analytics
 
 <p align="center">
