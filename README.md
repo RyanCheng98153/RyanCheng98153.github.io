@@ -11,23 +11,22 @@ I'm a 21-year-old computer science studentwith a passion for technology, program
 
 #### 📘 About Me
 
-- 🌱 I’m currently diving deep into **Machine Learning** and **Web Search & Mining**
+- 🌱 I’m currently diving deep into **Deep Learnign** and **Nature Language Processing**
 - 👨‍💻 I'm working on a couple of side projects related to **web development** and **real-world scheduling problem**.
-- 💡 I'm interested in solving real-world problems using technology and am always looking for new challenges.
 - 📫 How to reach me
+  - Website: [https://ryancheng98153.github.io](https://ryancheng98153.github.io/)
   - Email: [ryan98153@gmail.com](mailto:ryan98153@gmail.com)
-  - Portfolio: [https://ryancheng98153.github.io](https://ryancheng98153.github.io/)
   - LinkedIn: [ryan-cheng](www.linkedin.com/in/ryancheng98153)
-
+  - Portfolio: [RyanCV 2025](docs/Ryan%20CV%202025.pdf)
+  
 #### 🔧 Technologies & Tools
 
-- **Language:** C/C++, JS/TS, Python, Golang
-- **Frameworks/Libraries:**
-  - **Web Development:** React, NextJs, Node.js, ExpressJs, React Native
-  - **Machine Learning:** Pytorck, Pandas, sklearn
-  - **API Design & Development:** gRPC, RESTful APIs
-- **Tools:** Git
-- **Database:** MySQL, PostgreSQL, MongoDB, SQLite
+- **Languages**: C/C++, JS/TS, Python, Golang, Node.js
+- **Software Development**: React / React Native, RestAPI, gRPC,  MQTT, 
+- **Tools:** Git/ Github, Docker, Postman, Llama-index, Grafana k6, 
+- **Database:** MySQL, MongoDB
+- **Ai Development** Tensorflow, Pytorch, Huggingface 
+- **AI skills**: Deep Learning, PyTorch, LLMs, RAGs, Image Processing
 
 #### 🌟 Publicians & Projects
 - Cache Augmentation Generation (a.k.a CAG) 
@@ -35,10 +34,13 @@ I'm a 21-year-old computer science studentwith a passion for technology, program
   - paper link: https://arxiv.org/abs/2412.15605
   - Code link: https://github.com/hhhuang/CAG
   - ACM The Web Conference 2025 (WWW'25), Accepted.
-- 
 
 #### 📚 I'm currently reading
 - "Clean Code: A Handbook of Agile Software Craftsmanship" by Robert C. Martin
+- Grokking Simplicity: Taming Complex Software With Functional Thinking by Eric Normand
+- "20 Things I’ve Learned in my 20 Years as a Software Engineer" by Justin Etheredge
+- "Analysis Patterns: Reusable Object Models" by Fowler, Martin
+- "The Art of Strategy" by Dixit and Nalebuff
 
 #### 📊 GitHub Analytics
 
