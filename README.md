@@ -29,9 +29,9 @@ I'm a 21-year-old computer science studentwith a passion for technology, program
 - **AI skills**: Deep Learning, PyTorch, LLMs, RAGs, Image Processing
 
 #### 🌟 Publicians & Projects
-- Cache Augmentation Generation (a.k.a CAG) 
+- **Cache Augmentation Generation** (a.k.a CAG) 
   - CAG is A Simple, Efficient Alternative to RAG
-  - ACM The Web Conference 2025 (WWW'25), Accepted.
+  - ***ACM The Web Conference 2025 (WWW'25)**, Accepted.*
   - [Paper](https://arxiv.org/abs/2412.15605) / [Code](https://github.com/hhhuang/CAG)
 
 #### 📚 I'm currently reading
