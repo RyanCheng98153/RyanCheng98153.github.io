@@ -31,9 +31,8 @@ I'm a 21-year-old computer science studentwith a passion for technology, program
 #### 🌟 Publicians & Projects
 - Cache Augmentation Generation (a.k.a CAG) 
   - CAG is A Simple, Efficient Alternative to RAG
-  - paper link: https://arxiv.org/abs/2412.15605
-  - Code link: https://github.com/hhhuang/CAG
   - ACM The Web Conference 2025 (WWW'25), Accepted.
+  - [Paper](https://arxiv.org/abs/2412.15605) / [Code](https://github.com/hhhuang/CAG)
 
 #### 📚 I'm currently reading
 - "Clean Code: A Handbook of Agile Software Craftsmanship" by Robert C. Martin
