@@ -60,5 +60,4 @@ I'm a 21-year-old computer science studentwith a passion for technology, program
 </p>
 
 ---
-https://hackmd.io/@ryan98153/S1ZL1aMdel
-https://www.canva.com/design/DAG15819YvY/f2FaiC8FRwcmD4hZnQnrhw/edit?utm_content=DAG15819YvY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+https://hackmd.io/@ryan98153/HyZAOzZpel
