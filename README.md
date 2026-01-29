@@ -61,3 +61,6 @@ I'm a 21-year-old computer science studentwith a passion for technology, program
 
 ---
 https://hackmd.io/@ryan98153/HyZAOzZpel
+
+https://chatgpt.com/gg/v/697b95721b18819fbadf105b1a100d6b?token=LhqSrqKYZ5Ne3bt1PiWtdA
+https://obtainable-aardwolf-d41.notion.site/Working-Meeting-CQR-2f731c02fb3f80e393ccc6c71e0a8be2?source=copy_link
