@@ -43,10 +43,6 @@ Check Publication on [Google Scholar](https://scholar.google.com/citations?user=
 #### 📊 GitHub Analytics
 
 <p align="center">
-  <a href="https://github.com/ryancheng98153/">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ryancheng98153&show_icons=true&theme=material-palenight" alt="RyanCheng's GitHub Stats" />
-  </a>
-  <br />
   <!-- 
   <a href="https://github.com/ryancheng98153/">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=ryancheng98153&theme=material_palenight" alt="RyanCheng's streak" />
