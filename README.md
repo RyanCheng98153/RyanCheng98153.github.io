@@ -1,5 +1,3 @@
-# RyanCheng98153.github.io
-
 ### Hi there 👋, I am Ryan Cheng
 
 <p align="left">
@@ -11,36 +9,37 @@ I'm a 21-year-old computer science studentwith a passion for technology, program
 
 #### 📘 About Me
 
-- 🌱 I’m currently diving deep into **Deep Learnign** and **Nature Language Processing**
+- 🌱 I’m currently diving deep into **Machine Learning** and **Web Search & Mining**
 - 👨‍💻 I'm working on a couple of side projects related to **web development** and **real-world scheduling problem**.
+- 💡 I'm interested in solving real-world problems using technology and am always looking for new challenges.
 - 📫 How to reach me
-  - Website: [https://ryancheng98153.github.io](https://ryancheng98153.github.io/)
   - Email: [ryan98153@gmail.com](mailto:ryan98153@gmail.com)
-  - LinkedIn: [ryan-cheng](www.linkedin.com/in/ryancheng98153)
-  - Portfolio: [RyanCV 2025](docs/Ryan%20CV%202025.pdf)
-  
+  - Portfolio: [https://ryancheng98153.github.io](https://ryancheng98153.github.io/)
+  - LinkedIn: [ryan-cheng](https://www.linkedin.com/in/ryancheng98153/)
+ 
+#### 🎓 Publications
+Check Publication on [Google Scholar](https://scholar.google.com/citations?user=gH75fz8AAAAJ)
+- Don't do rag: When cache-augmented generation is all you need for knowledge tasks
+  - The Web conference 2025 (first author)
+- Efficient beam search for large language models using Trie-based decoding
+  - EMNLP 2025 (third author)
+
 #### 🔧 Technologies & Tools
 
-- **Languages**: C/C++, JS/TS, Python, Golang, Node.js
-- **Software Development**: React / React Native, RestAPI, gRPC,  MQTT, 
-- **Tools:** Git/ Github, Docker, Postman, Llama-index, Grafana k6, 
-- **Database:** MySQL, MongoDB
-- **Ai Development** Tensorflow, Pytorch, Huggingface 
-- **AI skills**: Deep Learning, PyTorch, LLMs, RAGs, Image Processing
+- **Language:** C/C++, JS/TS, Python, Golang
+- **Frameworks/Libraries:**
+  - **Web Development:** React, NextJs, Node.js, ExpressJs, React Native
+  - **Machine Learning:** Pytorch, Pandas, sklearn
+  - **API Design & Development:** gRPC, RESTful APIs
+- **Tools:** Git
+- **Database:** MySQL, PostgreSQL, MongoDB, SQLite
 
-#### 🌟 Publicians & Projects
-- **Cache Augmentation Generation** (a.k.a CAG) 
-  - CAG is A Simple, Efficient Alternative to RAG
-  - ***ACM The Web Conference 2025 (WWW'25)**, Accepted.*
-  - [Paper](https://arxiv.org/abs/2412.15605) / [Code](https://github.com/hhhuang/CAG)
+#### 🌟 Projects
 
 #### 📚 I'm currently reading
-- "Clean Code: A Handbook of Agile Software Craftsmanship" by Robert C. Martin
-- Grokking Simplicity: Taming Complex Software With Functional Thinking by Eric Normand
-- "20 Things I’ve Learned in my 20 Years as a Software Engineer" by Justin Etheredge
-- "Analysis Patterns: Reusable Object Models" by Fowler, Martin
-- "The Art of Strategy" by Dixit and Nalebuff
 
+- "The art of clean code - Best Practices to Eliminate Complexity and Simplicity Your Life" by Christian Mayer
+- "Clean Code: A Handbook of Agile Software Craftsmanship" by Robert C. Martin
 #### 📊 GitHub Analytics
 
 <p align="center">
@@ -57,5 +56,15 @@ I'm a 21-year-old computer science studentwith a passion for technology, program
   <a href="https://github.com/ryancheng98153/">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=ryancheng98153&theme=material-palenight"/>
   </a>
+  <br />
+  <!--
+  <a href="https://github.com/ryancheng98153/">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RyanCheng98153&layout=compact&langs_count=8&theme=material-palenight&hide=jupyter%20notebook,shaderlab,html,hlsl,mathematica"/>
+  </a>
+  <br />
+  -->
 </p>
+ 
+---
 
+Last updated on October 18, 2024.
